@@ -56,3 +56,4 @@ C:\projects\webforms\teste\CadastroDeAmigo\CadastroDeAmigo\obj\Debug\CadastroDeA
 C:\projects\webforms\teste\CadastroDeAmigo\CadastroDeAmigo\obj\Debug\CadastroDeAmigo.csproj.CopyComplete
 C:\projects\webforms\teste\CadastroDeAmigo\CadastroDeAmigo\obj\Debug\CadastroDeAmigo.dll
 C:\projects\webforms\teste\CadastroDeAmigo\CadastroDeAmigo\obj\Debug\CadastroDeAmigo.pdb
+C:\projects\webforms\teste\CadastroDeAmigo\CadastroDeAmigo\obj\Debug\CadastroDeAmigo.csprojAssemblyReference.cache

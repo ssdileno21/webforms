@@ -26,7 +26,6 @@
             <div class="campo">
                 <input type="submit" title="Cadastrar" value="Cadastrar"  />
             </div>
-
         </div>
     </form>
 </body>
