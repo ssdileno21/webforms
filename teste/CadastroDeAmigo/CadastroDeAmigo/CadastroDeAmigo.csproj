@@ -75,9 +75,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\Theme1\ssCadastro.css" />
     <Content Include="Cadastro.aspx" />
-    <Content Include="Cadastro.css" />
+    <Content Include="css\StyleCad.css" />
     <Content Include="Global.asax" />
+    <Content Include="Lista.aspx" />
     <Content Include="Models\CadastroAmigos.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>CadastroAmigos.Context.cs</LastGenOutput>
@@ -101,6 +103,13 @@
     <Compile Include="Dao\Amigo.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Lista.aspx.cs">
+      <DependentUpon>Lista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lista.aspx.designer.cs">
+      <DependentUpon>Lista.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\Amigo.cs">
       <DependentUpon>CadastroAmigos.tt</DependentUpon>

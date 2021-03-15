@@ -4,7 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <%--<link href="Cadastro.css" rel="stylesheet"/>--%>
+     <%--<link rel="stylesheet" href="css/StyleCad.css" type="text/css"/>--%>
+     <link href="App_Themes/Theme1/ssCadastro.css" rel="stylesheet" type="text/css" />
      <title></title>
 </head>
 <body>

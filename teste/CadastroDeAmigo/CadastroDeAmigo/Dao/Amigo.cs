@@ -29,5 +29,24 @@ namespace CadastroDeAmigo.Dao
             }           
         
         }
+        //Diferenças entre IEnumerable e List:
+        //    List : Possui métdos de inserir dados e IEnumerable não, pois é simplesmente a lista e nada pode ser alterado
+        //public static List<Models.Amigo>
+        public static IEnumerable<Models.Amigo> ListarAmigos()
+        {
+            try
+            {
+                using (var conexao = new Models.TesteWebFormsEntities())
+                {
+                    return conexao.Amigoes.ToList();                    
+                }
+            }
+            catch
+            {
+                return new List<Models.Amigo>();
+            }
+
+        }
+
     }
 }

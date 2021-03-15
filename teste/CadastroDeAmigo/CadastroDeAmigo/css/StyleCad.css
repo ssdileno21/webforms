@@ -1,16 +1,13 @@
-﻿body {
-
-}
-
-.container {
+﻿.container {
     width: 450px;    
     margin: 0 auto;
+
 }
 
 .container h1 {
     text-align: center;
 }
-    
+
 
 .campo {
     padding: 10px;
